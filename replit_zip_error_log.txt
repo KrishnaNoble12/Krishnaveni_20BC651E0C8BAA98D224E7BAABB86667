@@ -1,1 +1,9 @@
-{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/python-3.10:v21-20230831-f4ed402","time":"2023-09-10T08:37:36Z"}
+input_year = int(input("Enter the Year to be checked: "))
+if (input_year%400 == 0):
+          print("%d is a Leap Year" %input_year)
+elif (input_year%100 == 0):
+          print("%d is Not the Leap Year" %input_year)
+elif (input_year%4 == 0):
+          print("%d is a Leap Year" %input_year)
+else:
+          print("%d is Not the Leap Year" %input_year)
